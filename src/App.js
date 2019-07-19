@@ -5,11 +5,13 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+    <link href="https://unpkg.com/basscss@8.0.2/css/basscss.min.css" rel="stylesheet"></link>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Edit <code>pizzass</code> and save to reload.
         </p>
+        <p class="italic">Italic</p>
         <a
           className="App-link"
           href="https://reactjs.org"
